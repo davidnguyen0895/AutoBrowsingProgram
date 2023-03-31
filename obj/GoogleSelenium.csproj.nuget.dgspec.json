@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\thinh\\DATA\\GIT\\AutoBrowsingProgram\\GoogleSelenium.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\thinh\\DATA\\GIT\\AutoBrowsingProgram\\GoogleSelenium.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\thinh\\DATA\\GIT\\AutoBrowsingProgram\\GoogleSelenium.csproj",
+        "projectName": "GoogleSelenium",
+        "projectPath": "C:\\Users\\thinh\\DATA\\GIT\\AutoBrowsingProgram\\GoogleSelenium.csproj",
+        "packagesPath": "C:\\Users\\thinh\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\thinh\\DATA\\GIT\\AutoBrowsingProgram\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\thinh\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Selenium.Support": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "Selenium.WebDriver": {
+              "target": "Package",
+              "version": "[4.8.2, )"
+            },
+            "Selenium.WebDriver.ChromeDriver": {
+              "target": "Package",
+              "version": "[111.0.5563.6400, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
